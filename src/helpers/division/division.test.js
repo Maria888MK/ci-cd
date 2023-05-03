@@ -6,6 +6,6 @@ describe('division', function () {
     })
 
     test('negative', () => {
-        expect(division(-5, -5)).toBe(-1);
+        expect(division(-5, 5)).toBe(-1);
     })
 });
